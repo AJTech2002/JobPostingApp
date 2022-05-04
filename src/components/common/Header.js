@@ -4,7 +4,7 @@ import PrimaryButton from './PrimaryButton';
 
 export default function Header(props) {
     return (
-        <div id="LandingPageHeader" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div id="LandingPageHeader" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', backgroundColor: "#FDEDEF" }}>
             <Logo />
             <div id="LandingPageOptions" style={{ display: 'flex', flexDirection: 'row', marginRight: 30, alignItems: 'center' }}>
                 <h3>Find a Job</h3>
